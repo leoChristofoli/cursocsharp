@@ -13,7 +13,9 @@ namespace CursoCSharp {
             //NotacaoPonto.Executar();
             //LendoConsole.Executar();
             //FormatandoNumero.Executar();
-            Conversoes.Executar();
+            //Conversoes.Executar();
+            //OperadoresAritmeticos.Executar();
+            OperadoresRelacionais.Executar();
         }
     }
 }
