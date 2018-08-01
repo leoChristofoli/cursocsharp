@@ -9,7 +9,8 @@ namespace CursoCSharp {
             //Comentarios.Executar();
             //VariaveisEConstantes.Executar();
             //Inferencia.Executar();
-            Interpolacao.Executar();
+            //Interpolacao.Executar();
+            NotacaoPonto.Executar();
         }
     }
 }
