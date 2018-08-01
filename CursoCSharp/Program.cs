@@ -15,7 +15,8 @@ namespace CursoCSharp {
             //FormatandoNumero.Executar();
             //Conversoes.Executar();
             //OperadoresAritmeticos.Executar();
-            OperadoresRelacionais.Executar();
+            //OperadoresRelacionais.Executar();
+            OperadoresLogicos.Executar();
         }
     }
 }

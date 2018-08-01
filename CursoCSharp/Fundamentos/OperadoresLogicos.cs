@@ -4,11 +4,13 @@ using System.Text;
 
 namespace CursoCSharp.Fundamentos
 {
-    class OperadoresRelacionais
+    class OperadoresLogicos
     {
         public static void Executar() {
-            bool FALSE = !(true);
-            Console.WriteLine(FALSE);
+            var trabalho1 = true;
+            var trabalho2 = false;
+
+            var osDoisSaoTrue = trabalho1 && trabalho2;
         }
     }
 }

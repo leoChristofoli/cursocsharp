@@ -30,12 +30,10 @@ namespace CursoCSharp.Fundamentos
             };
 
             foreach(int i in Enumerable.Range(1, 10)) {
-                if(i%2 == 0) {
-                    Console.WriteLine(i + " é par");
-                }
-                else {
-                    Console.WriteLine(i + " é impar");
-                }
+                string result;
+                result = i%2 == 0 ? " é par" : " é impar";
+                Console.WriteLine(i + result);
+
             }
         }
     }
