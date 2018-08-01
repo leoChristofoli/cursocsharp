@@ -10,7 +10,10 @@ namespace CursoCSharp {
             //VariaveisEConstantes.Executar();
             //Inferencia.Executar();
             //Interpolacao.Executar();
-            NotacaoPonto.Executar();
+            //NotacaoPonto.Executar();
+            //LendoConsole.Executar();
+            //FormatandoNumero.Executar();
+            Conversoes.Executar();
         }
     }
 }
