@@ -7,7 +7,9 @@ namespace CursoCSharp {
             Console.WriteLine("Hello World!");
             //PrimeiroPrograma.Executar();
             //Comentarios.Executar();
-            VariaveisEConstantes.Executar();
+            //VariaveisEConstantes.Executar();
+            //Inferencia.Executar();
+            Interpolacao.Executar();
         }
     }
 }

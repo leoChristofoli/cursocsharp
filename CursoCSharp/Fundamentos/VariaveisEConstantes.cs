@@ -36,10 +36,30 @@ namespace CursoCSharp.Fundamentos
 
             int number = int.MaxValue;
             Console.WriteLine("int: " + number);
+            
             // uint = Positivo
+            uint positiveNumber = uint.MinValue;
+            Console.WriteLine("uint: " + positiveNumber);
 
             long bigNumber = long.MaxValue;
             Console.WriteLine("long: " + bigNumber);
+
+            ulong bigPositiveNumber = ulong.MaxValue;
+            Console.WriteLine("long positive: " + bigPositiveNumber);
+
+            float preco = 1299.99f; //4 bytes
+            Console.WriteLine("float: " + preco);
+
+            Console.WriteLine("double: " + area); //double tem 8 bytes
+
+            decimal distanciaEntreEstrelas = decimal.MaxValue;
+            Console.WriteLine("decimal: " + distanciaEntreEstrelas);
+
+            char letra = 'a'; // uma letra
+            Console.WriteLine("char :" + letra);
+
+            string texto = "muitas letras"; // sempre " "
+            Console.WriteLine("string: " + texto);
 
         }
     }
