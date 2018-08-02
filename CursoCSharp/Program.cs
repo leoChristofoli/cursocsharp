@@ -1,5 +1,6 @@
 ﻿using System;
 using CursoCSharp.Fundamentos;
+using CursoCSharp.EstruturasDeControle;
 
 namespace CursoCSharp {
     class Program {
@@ -17,7 +18,15 @@ namespace CursoCSharp {
             //OperadoresAritmeticos.Executar();
             //OperadoresRelacionais.Executar();
             //OperadoresLogicos.Executar();
-            OperadoresUnarios.Executar();
+            //OperadoresUnarios.Executar();
+            /*
+             * Estruturas de Controle
+             */
+            //EstruturaIf.Executar();
+            //EstruturaSwitch.Executar();
+            //EstruturaWhile.Executar();
+            //EstruturaDoWhile.Executar();
+            EstruturaFor.Executar();
         }
     }
 }
