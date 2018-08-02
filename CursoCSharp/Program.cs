@@ -16,7 +16,8 @@ namespace CursoCSharp {
             //Conversoes.Executar();
             //OperadoresAritmeticos.Executar();
             //OperadoresRelacionais.Executar();
-            OperadoresLogicos.Executar();
+            //OperadoresLogicos.Executar();
+            OperadoresUnarios.Executar();
         }
     }
 }
