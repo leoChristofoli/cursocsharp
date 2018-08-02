@@ -1,6 +1,7 @@
 ﻿using System;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
+using CursoCSharp.ClassesEMetodos;
 
 namespace CursoCSharp {
     class Program {
@@ -26,7 +27,11 @@ namespace CursoCSharp {
             //EstruturaSwitch.Executar();
             //EstruturaWhile.Executar();
             //EstruturaDoWhile.Executar();
-            EstruturaFor.Executar();
+            //EstruturaFor.Executar();
+            /*
+             * Classes e Metodos
+             */
+            Membros.Executar();
         }
     }
 }
