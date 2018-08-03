@@ -12,6 +12,10 @@ namespace CursoCSharp.ClassesEMetodos
         public Carro(string Fabricante) {
             this.Fabricante = Fabricante;
         }
+
+        public Carro() {
+
+        } // Podemos instanciar sem parâmetros tbm
     }
 
     class Construtores
@@ -21,6 +25,8 @@ namespace CursoCSharp.ClassesEMetodos
                 Modelo = "330i",
                 Ano = 2010
             };
+
+            var carro2 = new Carro();
 
         }
     }
