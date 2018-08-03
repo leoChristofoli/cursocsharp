@@ -32,7 +32,13 @@ namespace CursoCSharp {
              * Classes e Metodos
              */
             //Membros.Executar();
-            Construtores.Executar();
+            //Construtores.Executar();
+            //MetodosComRetorno.Executar();
+            //MetodosEstaticos.Executar();
+            //AtributosEstaticos.Executar();
+            //DesafioAtributo.Executar();
+            //ParametrosVariaveis.Executar();
+            ParametrosNomeados.Executar();
         }
     }
 }
