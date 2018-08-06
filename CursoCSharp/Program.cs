@@ -38,7 +38,10 @@ namespace CursoCSharp {
             //AtributosEstaticos.Executar();
             //DesafioAtributo.Executar();
             //ParametrosVariaveis.Executar();
-            ParametrosNomeados.Executar();
+            //ParametrosNomeados.Executar();
+            //GetSet.Executar();
+            //Props.Executar();
+            Readonly.Executar();
         }
     }
 }
