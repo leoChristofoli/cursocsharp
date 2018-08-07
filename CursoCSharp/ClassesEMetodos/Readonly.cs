@@ -13,9 +13,19 @@ namespace CursoCSharp.ClassesEMetodos {
             Nome = nome;
             Nascimento = nascimento;
         }
-    }
+		public override string ToString()
+		{
+			return Nome + Nascimento.ToString();
+		}
+	}
 
     class Readonly {
-        public static void Executar();
+		public static void Executar(){
+			var cliente1 = new Cliente(
+				nome: "João",
+				nascimento:new DateTime(year: 1989, month: 10, day:13)
+			);
+			Console.WriteLine(cliente1);
+		}
     }
 }
