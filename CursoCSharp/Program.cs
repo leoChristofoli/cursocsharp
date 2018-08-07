@@ -41,7 +41,9 @@ namespace CursoCSharp {
             //ParametrosNomeados.Executar();
             //GetSet.Executar();
             //Props.Executar();
-            Readonly.Executar();
+            //Readonly.Executar();
+            //ExemploEnum.Executar();
+            ExemploStruct.Executar();
         }
     }
 }
