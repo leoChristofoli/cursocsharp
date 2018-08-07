@@ -7,7 +7,7 @@ namespace CursoCSharp.ClassesEMetodos
     class Calculadora {
         /*
          * Metódos estáticos devem ser acessedos
-         * sem a necessidade da instãncia.
+         * sem a instãncia.
          * 
          * Pertencem à classe, não ao objeto.
          * 

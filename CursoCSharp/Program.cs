@@ -44,7 +44,10 @@ namespace CursoCSharp {
             //Readonly.Executar();
             //ExemploEnum.Executar();
             //ExemploStruct.Executar();
-            StructVsClasse.Executar();
+            //StructVsClasse.Executar();
+            //ValorVsReferencia.Executar();
+            //ParametrosPorreferencia.Executar();
+            ParametroPadrao.Executar();
         }
     }
 }
