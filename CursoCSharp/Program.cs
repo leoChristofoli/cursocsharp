@@ -2,6 +2,7 @@
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
 
 namespace CursoCSharp {
     class Program {
@@ -47,7 +48,11 @@ namespace CursoCSharp {
             //StructVsClasse.Executar();
             //ValorVsReferencia.Executar();
             //ParametrosPorreferencia.Executar();
-            ParametroPadrao.Executar();
+            //ParametroPadrao.Executar();
+            /*
+             * Coloções
+             */
+            Colecoes.Array.Executar();
         }
     }
 }
