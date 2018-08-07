@@ -1,0 +1,7 @@
+.vs/*
+CursoCSharp/bin/*
+CursoCSharp/obj/*
+Properties/*
+*.csproj
+*.csproj.*
+*.sln
