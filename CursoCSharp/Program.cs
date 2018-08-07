@@ -43,7 +43,8 @@ namespace CursoCSharp {
             //Props.Executar();
             //Readonly.Executar();
             //ExemploEnum.Executar();
-            ExemploStruct.Executar();
+            //ExemploStruct.Executar();
+            StructVsClasse.Executar();
         }
     }
 }
