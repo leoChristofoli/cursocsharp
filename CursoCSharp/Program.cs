@@ -52,7 +52,11 @@ namespace CursoCSharp {
             /*
              * Coloções
              */
-            Colecoes.Array.Executar();
+            //Colecoes.Array.Executar();
+            //ColecoesList.Executar();
+            //CArrayList.Executar();
+            //CSet.Executar();
+            CQueue.Executar();
         }
     }
 }
