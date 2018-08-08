@@ -9,11 +9,9 @@ namespace CursoCSharp.ClassesEMetodos
         public double Preco;
         public static double Desconto = 0.1;
 
-        public Produto(string nome, double preco, double desconto) {
+        public Produto(string nome, double preco) {
             Nome = nome;
             Preco = preco;
-            Desconto = desconto;
-
         }
 
         public Produto() {

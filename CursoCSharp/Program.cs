@@ -56,7 +56,8 @@ namespace CursoCSharp {
             //ColecoesList.Executar();
             //CArrayList.Executar();
             //CSet.Executar();
-            CQueue.Executar();
+            //CQueue.Executar();
+            Igualdade.Executar();
         }
     }
 }
