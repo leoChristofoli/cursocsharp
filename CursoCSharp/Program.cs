@@ -57,7 +57,9 @@ namespace CursoCSharp {
             //CArrayList.Executar();
             //CSet.Executar();
             //CQueue.Executar();
-            Igualdade.Executar();
+            //Igualdade.Executar();
+            //CStack.Executar();
+            CDict.Executar();
         }
     }
 }
