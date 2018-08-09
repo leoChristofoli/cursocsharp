@@ -7,7 +7,7 @@ namespace CursoCSharp.ClassesEMetodos {
     public class Cliente {
         public string Nome;
 
-        private readonly DateTime Nascimento;
+        private readonly DateTime Nascimento; // Pode ser atribuido apenas atraves de um construtor
 
         public Cliente(string nome, DateTime nascimento) {
             Nome = nome;

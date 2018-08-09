@@ -3,6 +3,7 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.OO;
 
 namespace CursoCSharp {
     class Program {
@@ -59,7 +60,11 @@ namespace CursoCSharp {
             //CQueue.Executar();
             //Igualdade.Executar();
             //CStack.Executar();
-            CDict.Executar();
+            //CDict.Executar();
+            /*
+             * Orientação Objeto
+             */
+            Heranca.Executar();
         }
     }
 }

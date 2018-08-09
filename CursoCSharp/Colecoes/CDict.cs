@@ -24,7 +24,7 @@ namespace CursoCSharp.Colecoes {
             }
 
             Console.WriteLine(filmes.Remove(2010));
-
+             
             filmes.TryGetValue(2004, out string filme2004);
             Console.WriteLine(filme2004);
         }
