@@ -19,7 +19,7 @@ namespace CursoCSharp.OO {
          * classe, desde que um deles chame o construtor Pai.
          */
 
-        public double Altura { get; set; }
+        public double Altura { get; set; } // Propriedade read/write
 
         public Cachorro(string nome): base(nome) {
             Console.WriteLine($"Cachorro {nome}");
