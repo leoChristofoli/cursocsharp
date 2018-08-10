@@ -64,7 +64,8 @@ namespace CursoCSharp {
             /*
              * Orientação Objeto
              */
-            Heranca.Executar();
+            //Heranca.Executar();
+            ConstrutorThis.Executar();
         }
     }
 }

@@ -26,7 +26,7 @@ namespace CursoCSharp.OO {
             return VelocidadeAtual;
         }
 
-        public int Acelerar() {
+        public virtual int Acelerar() {
             return AlterarVelocidade(5);
         }
 
@@ -47,6 +47,14 @@ namespace CursoCSharp.OO {
         public Ferrari(): base(350) {
 
         }
+
+        public override int Acelerar() {
+            return AlterarVelocidade(15);
+        }
+
+        public new int Frear() {
+            return AlterarVelocidade(-15);
+        }
     }
 
     class Heranca {
@@ -58,7 +66,20 @@ namespace CursoCSharp.OO {
             Console.WriteLine(carro1.Acelerar());
             Console.WriteLine(carro1.Frear());
 
-            Carro ferrari = new Ferrari();
+            Console.WriteLine("Ferrari");
+            Ferrari ferrari = new Ferrari();
+            Console.WriteLine(ferrari.Acelerar());
+            Console.WriteLine(ferrari.Frear());
+
+            Console.WriteLine("Ferrari do tipo Carro");
+            Carro carro2 = new Ferrari();
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Frear());
+            /*
+             * Como agora a ferrari é do tipo Carro(Pai),
+             * o metodo que não foi sobrescrito é substituido.
+             */
+
         }
     }
 }
