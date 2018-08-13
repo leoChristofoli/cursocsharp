@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Encapsulamento {
-    class FilhoReconhecido : SubCelebridade {
+    public class FilhoReconhecido : SubCelebridade {
 
         public new void MeusAcessos() {
             Console.WriteLine("Filho Reconhecido");

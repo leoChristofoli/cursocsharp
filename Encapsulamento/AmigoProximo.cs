@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Encapsulamento {
-    class AmigoProximo {
+    public class AmigoProximo {
         // Compisição
         public readonly SubCelebridade amiga = new SubCelebridade();
 
