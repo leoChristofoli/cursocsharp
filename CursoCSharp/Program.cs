@@ -67,7 +67,8 @@ namespace CursoCSharp {
             //Heranca.Executar();
             //ConstrutorThis.Executar();
             //CursoCSharp.OO.Encapsulamento.Executar();
-            Polimorfismo.Executar();
+            //Polimorfismo.Executar();
+            CAbstract.Executar();
         }
     }
 }
