@@ -68,7 +68,8 @@ namespace CursoCSharp {
             //ConstrutorThis.Executar();
             //CursoCSharp.OO.Encapsulamento.Executar();
             //Polimorfismo.Executar();
-            CAbstract.Executar();
+            //CAbstract.Executar();
+            CInterface.Executar();
         }
     }
 }
