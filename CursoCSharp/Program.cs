@@ -4,6 +4,7 @@ using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
+using CursoCSharp.MetodosEFuncoes;
 
 namespace CursoCSharp {
     class Program {
@@ -70,7 +71,13 @@ namespace CursoCSharp {
             //Polimorfismo.Executar();
             //CAbstract.Executar();
             //CInterface.Executar();
-            CSealed.Executar();
+            //CSealed.Executar();
+            /*
+             * Metodos e Funções
+             */
+            //ExemploLambda.Executar();
+            //LambdasDelegate.Executar();
+            UsandoDelegate.Executar();
         }
     }
 }
