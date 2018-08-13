@@ -69,7 +69,8 @@ namespace CursoCSharp {
             //CursoCSharp.OO.Encapsulamento.Executar();
             //Polimorfismo.Executar();
             //CAbstract.Executar();
-            CInterface.Executar();
+            //CInterface.Executar();
+            CSealed.Executar();
         }
     }
 }
