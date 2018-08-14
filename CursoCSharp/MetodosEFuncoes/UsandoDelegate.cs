@@ -6,7 +6,7 @@ namespace CursoCSharp.MetodosEFuncoes {
     class UsandoDelegate {
 
         delegate double Soma(double a, double b);
-        delegate void ImprimirSoma(double, double b);
+        delegate void ImprimirSoma(double a, double b);
 
         static double MinhaSoma(double a, double b) {
             return a + b;

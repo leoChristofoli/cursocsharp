@@ -5,6 +5,7 @@ using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
 using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.MeusTestes;
 
 namespace CursoCSharp {
     class Program {
@@ -77,7 +78,18 @@ namespace CursoCSharp {
              */
             //ExemploLambda.Executar();
             //LambdasDelegate.Executar();
-            UsandoDelegate.Executar();
+            //UsandoDelegate.Executar();
+            //DelegateFuncAnonima.Executar();
+            //DelegatesComParametros.Executar();
+            //MetodosDeExtensao.Executar();
+            /*
+             * Exceções e Tratamento de Erro
+             */
+
+            /*
+             * Meus Testes
+             */
+            //GetFolderSecurity.Executar();
         }
     }
 }
