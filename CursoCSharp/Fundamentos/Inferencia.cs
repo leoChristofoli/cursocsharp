@@ -12,6 +12,8 @@ namespace CursoCSharp.Fundamentos
             //var idade -> não funciona
             int idade;
             idade = 28;
+
+            Console.WriteLine(nome + idade);
         }
     }
 }
