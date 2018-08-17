@@ -86,7 +86,14 @@ namespace CursoCSharp {
              * Exceções e Tratamento de Erro
              */
             //Excecoes.PrimeiraExcecao.Executar();
-            Excecoes.ExcecoesPersonalizadas.Executar();
+            //Excecoes.ExcecoesPersonalizadas.Executar();
+            /*
+             * Explorando API
+            */
+            //Api.PrimeiroArquivo.Executar();
+            //Api.LendoArquivo.Executar();
+            //Api.ExFileInfo.Executar();
+            Api.Diretorios.Executar();
             /*
              * Meus Testes
              */
