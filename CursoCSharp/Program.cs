@@ -93,7 +93,9 @@ namespace CursoCSharp {
             //Api.PrimeiroArquivo.Executar();
             //Api.LendoArquivo.Executar();
             //Api.ExFileInfo.Executar();
-            Api.Diretorios.Executar();
+            //Api.Diretorios.Executar();
+            //Api.ExemploDirInfo.Executar();
+            Api.ExemploDatetime.Executar();
             /*
              * Meus Testes
              */
