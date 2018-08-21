@@ -95,7 +95,13 @@ namespace CursoCSharp {
             //Api.ExFileInfo.Executar();
             //Api.Diretorios.Executar();
             //Api.ExemploDirInfo.Executar();
-            Api.ExemploDatetime.Executar();
+            //Api.ExemploDatetime.Executar();
+            //Api.ExemploTimeSpan.Executar();
+            /*
+             * Tópicos Avançados
+             */
+            //TopicosAvancados.LINQ1.Executar();
+            TopicosAvancados.LINQ2.Executar();
             /*
              * Meus Testes
              */
